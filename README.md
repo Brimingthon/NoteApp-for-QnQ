@@ -8,6 +8,7 @@ Java 17, Spring Boot 3, MongoDB, Maven, Docker
 ## ⚙️ Запуск
 
 docker run -d --name mongo -p 27017:27017 mongo
+
 mvn spring-boot:run
 
 **Налаштування:**
