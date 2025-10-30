@@ -12,14 +12,20 @@ mvn spring-boot:run
 
 **Налаштування:**
 spring.data.mongodb.uri=mongodb://localhost:27017/notesdb - локально
+
 spring.data.mongodb.uri=mongodb://mongo:27017/notesdb - через Docker
 
 **Основні ендпоінти**
 POST	/api/notes	Створити нотатку
+
 GET	/api/notes?page=0&size=5&tag=BUSINESS	Отримати нотатки з пагінацією та фільтрацією
+
 GET	/api/notes/stats	Статистика слів
+
 PUT	/api/notes/{id}	Оновити нотатку
+
 DELETE	/api/notes/{id}	Видалити нотатку
+
 
 **Приклад**
 curl -X POST http://localhost:8080/api/notes \
