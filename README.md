@@ -1,8 +1,4 @@
 # 📝 Notes API
-
-Простий REST API для керування нотатками на **Spring Boot + MongoDB**.
-
-## 🚀 Технології
 Java 17, Spring Boot 3, MongoDB, Maven, Docker
 ---
 
